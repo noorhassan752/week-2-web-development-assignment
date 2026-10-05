@@ -1,0 +1,86 @@
+body {
+    font-family: system-ui, Arial, Helvetica, sans-serif; 
+    margin: 40px;
+    bacground-colour: #f5f5f5;
+
+}
+
+#tittle {
+
+    text-align: cener;
+    font-size: 40px
+}
+
+.expense-section {
+    backround-colour : white;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+input {
+ display: block;
+ margin-top: 5px;
+ margin-bottom: 15px;
+ padding: 8px;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #f0f0f0;
+}
+button {
+    cursor: pointer;
+}
+.add-expense-section > input {
+    margin-bottom: 10px;
+}
+<section class="expenses-section">
+    <table>
+    .expenses-section td {
+    padding: 10px;
+}
+/* 1. Descendant selector */
+.expenses-section td {
+    padding: 10px;
+}
+
+/* 2. Direct child selector */
+.add-expense-section > input {
+    margin-bottom: 10px;
+}
+
+/* 3. Position pseudo-class */
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* 4. Negation pseudo-class */
+input:not([type="submit"]) {
+    border: 1px solid #ccc;
+}
+
+/* 5. Focus state */
+input:focus {
+    border: 2px solid #555;
+    outline: none;
+}
